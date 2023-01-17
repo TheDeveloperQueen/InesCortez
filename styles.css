@@ -1,0 +1,464 @@
+html {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.4;
+    color: rgb(32,32,32);
+    background-color: #fffefe;
+}
+
+
+
+.btn {
+    color: #fff;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    background-color: #9ed5ca; 
+    border: 1px solid #9ed5ca;
+
+}
+
+.btn:hover {
+    background-color: #f4faec;
+    color: #202020;
+}
+
+.bold {
+    font-weight: 900;
+}
+/* ====== HEADER ===== */
+
+.container-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9ed5ca;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+}
+
+header h1{
+    color: #fff;
+    margin: 0;
+}
+
+.navbar a img {
+    height: 30px;
+}
+
+.container-nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 1rem;
+} 
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    list-style: none;
+}
+
+/* ====== HERO ==== */
+
+.container-hero {
+   margin-top: 3rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   background-color: #F4FAEC;
+}
+
+.heroimg img {
+    width: 500px;
+    padding-right: 2rem;
+}
+
+.textleft {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.inicio {
+    font-size: 20px;
+    padding-left: 4rem;
+}
+
+.question {
+    padding-top: 2rem;
+    padding-left: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.resposta {
+    margin-left: 8rem;
+    padding-left: 1rem;
+    border-left: 5px solid #9ed5ca;
+}
+
+
+/* ==== MISSION === */
+
+.mission {
+    background-color: rgb(241, 239, 239);
+    margin-top: 0;
+    padding: 3rem;
+    text-align: center;
+}
+
+.mission h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.maisinfo p {
+    font-size: 20px;
+}
+
+/*SESSOES*/
+.sessoes {
+    padding: 1rem;
+}
+
+.packs {
+    background-color: #fff;
+    padding: 1rem;
+    width: 300px;
+    height: 450px;
+    margin: 5px;
+}
+
+.pack-top {
+    text-align: center;
+    border: 1px solid #9ed5ca;
+}
+
+.cent {
+    text-align: center;
+}
+
+.btnesq {
+    text-align: left;
+}
+
+.btnesq a {
+    color:#202020;
+}
+
+.btnesq a:hover {
+    color:#9ed5ca;
+}
+
+/* ==== EVENTOS ==== */
+
+.eventos {
+    padding: 8rem;
+    background-image: url(./img/eventosbackground.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fffefe;
+}
+
+.eventos h3, .pagtandc h3, .texto h3, .proximo h3, .titletestemunhos h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.eventos p {
+  font-size: 22px;
+  padding-bottom: 2rem;
+}
+
+.eventos p span{
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .inicio {
+        padding-left: 1rem;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .resposta {
+        margin-left: 2rem;
+    }
+    .question {
+        padding-left: 2rem;
+    }
+    .imgsessoes img {
+        width: 450px;
+    }
+    .eventos {
+        padding: 2rem;
+    }
+    .heroimg img {
+        width: 400px;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .imgsessoes img {
+        width: 350px;
+    }
+    .eventos {
+        padding: 1rem;
+    }
+    .maisinfo p, .eventos p {
+        font-size: 18px;
+    }
+    .mission {
+        padding: 1.5rem;
+    }
+}
+
+/* ====== CONTACTOS ===== */ 
+
+.footer {
+    color: #fff;
+    background-color: rgba(32,32,32,0.8);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.credits {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.contacts h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.contacts p {
+   margin-top: 0;
+   font-size: 20px;
+}
+
+.mail p {
+    padding-right: 0.7rem;
+}
+
+.mail img {
+    height: 70px;
+}
+
+.instalogo {
+    height: 80px;
+}
+
+.mail a {
+    color: #fff;
+}
+
+.mail a:hover {
+    color: #e2B097;
+}
+
+.credits p a {
+  color: #fffefe;
+}
+
+/* ===== PAGINA EVENTOS ==== */
+.proximo {
+    padding-top: 4rem;
+    text-align: center;
+    border-bottom: 2px solid #9ed5ca;
+    background-color: #f4faec;
+}
+
+.proximo img {
+    width: 300px;
+}
+
+.passado {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.passado h2 {
+    text-transform: uppercase;
+}
+
+.containerpassado, .video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CARROUSSEL DE IMAGENS*/
+
+.alecrim {
+    box-sizing: border-box;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    vertical-align: middle;
+    max-height: 500px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 600px;
+    padding: 2rem;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /*END SLIDESHOW*/
+.info {
+    text-align: left;
+    padding: 2rem;
+    max-width: 400px;
+    font-size: 20px;
+}
+
+.beneficios {
+    text-align: left;
+    padding-left: 5rem;
+}
+
+.testemunhos {
+    background-color: #dad8d8;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.video {
+    padding: 1rem;
+}
+
+.titletestemunhos {
+    text-align: center;
+}
+
+@media (max-width: 522px) {
+    .beneficios {
+        padding-left: 3rem;
+    }
+}
+
+/* ===== PAGINA Termos & Condiçoes ==== */
+.pagtandc {
+    background-color: #F4FAEC;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+.tec {
+    text-align: left;
+    margin: 2rem 7rem;
+    padding: 1rem 5rem;
+    background-color: #fffefe;
+}
+
+.tec a {
+    color: #9ed5ca;
+}
+
+@media (max-width: 657px) {
+    .tec {
+        margin: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 377px) {
+    .tec {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 16px;
+    }
+    .packs {
+        width: 280px;
+    }
+    .container-nav {
+        font-size: 12px;
+    }
+}
+
+/* PAGINA QUEM SOU */
+
+.texto {
+ padding-top: 5rem;
+ text-align: center;
+}
+
+.descriçao {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 1rem;
+}
+
+.descriçao img {
+    max-width: 300px;
+    padding-right: 0.5rem;
+}
+
+.escrito a {
+    color: #9ed5ca;
+}
+
+.escrito {
+    padding-left: 5rem;
+}
+
+@media (max-width: 620px) {
+    .descriçao img {
+        display: none;
+    }
+}
+
+@media (max-width: 460px) {
+    .escrito {
+        padding-left: 1rem;
+    }
+}
+
+/* PAGINA CONTACTOS */
+
+.pagcontactos {
+    color: #fff;
+    background-color: rgba(32,32,32,0.8);
+    padding-top: 5rem;
+    text-align: center;
+}
